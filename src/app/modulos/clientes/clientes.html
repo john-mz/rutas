@@ -1,1 +1,24 @@
-<p>clientes works!</p>
+<form (ngSubmit)="pushData()">
+    <p>NOMBRE</p>
+    <input type="text" name="nombre" [(ngModel)]="cliente.nombre">
+    <p>CELUCO</p>
+    <input type="tel" name="celular" [(ngModel)]="cliente.celular">
+    <button type="submit">ENVIAR</button>
+</form>
+
+<table width="50%" border="1" cellspacing="0">
+    <tr>
+        <th>ID</th>
+        <th>NOMBRE</th>
+        <th>CELULAR</th>
+        <th>ACCIONES</th>
+    </tr>
+    @for (item of clienteData; track item.id) {
+        <tr>
+            <td>{{item.id}}</td>
+            <td>{{item.nombre}}</td>
+            <td>{{item.celular}}</td>
+            <td><button (click)="deleteData(item.id)">ELiminar</button></td>
+        </tr>
+    }
+</table>

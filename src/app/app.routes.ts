@@ -8,6 +8,7 @@ import { Categoria } from './modulos/categoria/categoria';
 import { Login } from './modulos/login/login';
 import { Noencontro } from './modulos/noencontro/noencontro';
 
+        // if (path == '') component: Dashboard
 export const routes: Routes = [
     {
         path: '', component: Principal,

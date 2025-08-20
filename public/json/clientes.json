@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos",
+    "celular": "3225643434"
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "celular": "3101234567"
+  },
+  {
+    "id": 3,
+    "nombre": "Juan",
+    "celular": "3009876543"
+  },
+  {
+    "id": 4,
+    "nombre": "Ana",
+    "celular": "3156789123"
+  },
+  {
+    "id": 5,
+    "nombre": "Pedro",
+    "celular": "3123456789"
+  },
+  {
+    "id": 6,
+    "nombre": "Luisa",
+    "celular": "3201122334"
+  },
+  {
+    "id": 7,
+    "nombre": "Sofía",
+    "celular": "3112233445"
+  },
+  {
+    "id": 8,
+    "nombre": "Miguel",
+    "celular": "3133344556"
+  },
+  {
+    "id": 9,
+    "nombre": "Laura",
+    "celular": "3144455667"
+  },
+  {
+    "id": 10,
+    "nombre": "Andrés",
+    "celular": "3165566778"
+  }
+]
